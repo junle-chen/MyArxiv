@@ -10,6 +10,8 @@ on:
     # Syntax reference: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule
     # Recommended tool: https://crontab.guru/
     - cron: "12 5 * * *"
+permissions:
+  contents: write
 
 jobs:
   build:
